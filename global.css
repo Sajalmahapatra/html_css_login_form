@@ -7,7 +7,7 @@ body{
     justify-content: center;
     min-height: 100vh;
     font-family: 'Jost', sans-serif;
-    background:linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
 }
 .main{
     width: 350px;
@@ -93,7 +93,6 @@ button:hover{
     margin: 0;
     display: none;
     border: 1px solid transparent;
-    background: rgb(198, 58, 105);
     border-radius: 5px;
 }
 .alert p{
@@ -101,4 +100,10 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.error{
+    background: rgb(198, 58, 105);
+}
+.success{
+    background: rgb(54, 235, 54);
 }
